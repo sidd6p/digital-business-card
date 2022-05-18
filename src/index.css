@@ -10,6 +10,7 @@ body {
 .app {
     width: 300px;
     margin: 20px auto;
+    padding: 0px 0px 20px 0px;
     border: none;
     border-radius: 10px 10px;
     background-color: #1A1B21;
@@ -51,7 +52,7 @@ h3 {
 .address {
     margin-top: 10px;
     display: flex;
-    justify-content: space-around;
+    justify-content: left;
 }
 
 .address>a {
@@ -72,6 +73,7 @@ a>img {
     background-color: #5093E2;  
     display: flex;  
     justify-content: space-around;
+    margin: 0px auto 0px 20px;
 }
 
 .email {
@@ -79,12 +81,14 @@ a>img {
     background-color: white;
     display: flex;
     justify-content: space-around;
+    margin: 0px 20px 0px auto;
 }
 
-.about {
+.about, .interests {
     color: white;
     text-align: left;
     padding-left: 10px;
+    margin-bottom: 10px;
 }
 
 .heading {
