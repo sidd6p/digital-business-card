@@ -11,7 +11,7 @@ export default function Intro() {
                         <img src="./email_icon.png" />
                         <div>Email</div>
                     </a>
-                    <a className="linkedin" href="">
+                    <a className="linkedin" href="https://www.linkedin.com/in/siddhartha-purwar/">
                         <img src="./linkedin_icon.png" />
                         <div>LinkedIn</div>
                     </a>
