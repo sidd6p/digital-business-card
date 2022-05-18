@@ -1,13 +1,83 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.app {
+    width: 300px;
+    margin: 20px auto;
+    border: none;
+    border-radius: 10px 10px;
+    background-color: #1A1B21;
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+.details {
+    text-align: center;
+}
+
+.intro>img {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    border-radius: 10px 10px 0px 0px;
+    width: 300px;
+    height: 250px;
+}
+
+h2 {
+    font-weight: 700;
+    color: white;
+}
+
+
+h3 {
+    font-weight: 400;
+    font-size: 12.8px;
+    color: #F3BF99;
+}
+
+.a {
+    font-weight: 400;
+    font-size: 10.24px;
+    color: #F5F5F5;
+}
+
+.address {
+    margin-top: 10px;
+    display: flex;
+    display: flex;
+    justify-content: space-around;
+}
+
+.address>a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+a>img {
+    width: 15px;
+    height: 15px;
+    margin: auto;
+}
+
+.linkedin {
+    color: white;
+    background-color: #5093E2;  
+    display: flex;  
+    justify-content: space-around;
+}
+
+.email {
+    color: black;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
 }
