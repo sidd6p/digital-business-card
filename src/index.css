@@ -6,6 +6,11 @@ body {
     text-align: center;
 }
 
+a {
+    margin: 0;
+    padding: 0;
+}
+
 .app {
     box-sizing: border-box;
     width: 317px;
@@ -41,7 +46,8 @@ h2 {
 h3 {
     font-weight: 400;
     font-size: 12.8px;
-    color: #F3BF99;
+    color: #0D43BF;
+    font-weight: bolder;
 }
 
 .a {
@@ -118,7 +124,7 @@ a>img {
     justify-content: space-around;
 }
 
-.footer>img {
-    width: 25px;
-    height: 25px;
+a>img {
+    width: 22px;
+    height: 22px;
 }
