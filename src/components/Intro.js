@@ -7,12 +7,12 @@ export default function Intro() {
                 <h3>Aspiring Full-Stack Developer</h3>
                 <a href="https://github.com/sidd6p/">Website</a>
                 <div className="address">
-                    <a className="email" href="">
-                        <img src="./email_icon.png" />
+                    <a className="email" href="mailto:siddpurwar@gmail.com">
+                        {/* <img src="./email_icon.png" /> */}
                         <div>Email</div>
                     </a>
                     <a className="linkedin" href="https://www.linkedin.com/in/siddhartha-purwar/">
-                        <img src="./linkedin_icon.png" />
+                        {/* <img src="./linkedin_icon.png" /> */}
                         <div>LinkedIn</div>
                     </a>
                 </div>
